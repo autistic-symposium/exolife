@@ -1,0 +1,66 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{{Arnold} et~al.}{{Arnold}
+  et~al.}{2008}]{arnold_etal07}
+{Arnold}, L., et~al. 2008, \apj, 135, 323
+
+
+\bibitem[\protect\citeauthoryear{{Seager} et~al.}{{Seager}
+  et~al.}{2005}]{seager_etal05}
+{Seager}, R., et~al. 2005, \apj, 5, 3 
+
+
+\bibitem[\protect\citeauthoryear{{Arnold} et~al.}{{Arnold}
+  et~al.}{2002}]{arnold_etal02}
+{Arnold}, L., et~al. 2002, astro-ph:02063
+
+\bibitem[\protect\citeauthoryear{{Metchev} et~al.}{{Metchev}
+  et~al.}{2012}]{writeup} {Metchev}, {\it The Spectrum of Earthshine: Experiment
+Writeup}, 2012.
+
+
+
+
+\bibitem[\protect\citeauthoryear{{Woolf} et~al.}{{Woolf}
+et~al.}{2002}]{woolf_etal02}
+{Woolf}, E., et~al. 2002, \apj, 574, 433 
+
+
+
+\bibitem[\protect\citeauthoryear{{DADOS}}{{DADOS}
+  Spectrograph Manual}{2008}]{dados}
+{DADOS},   Spectrograph Manual, 2008
+
+
+
+\bibitem[\protect\citeauthoryear{{ccd}}{{ccd}
+ ccd}{2012}]{CCD}
+{ccd},   {\it Visible-light CCD Camera Manual}, 2012
+
+\bibitem[\protect\citeauthoryear{{atv}}{{atv}
+ atv}{2012}]{atv}
+{ATV.PRO},   {\it http://www.physics.uci.edu/~barth/atv/}, as in
+04/2012
+
+\bibitem{nuclear}
+{\it NIST Atomic Spectra Database},   {\url
+http://www.nist.gov/pml/data/asd.cfm}, as in 04/2012
+
+\bibitem[\protect\citeauthoryear{{neon-wave}}{{neon-wave}
+ neon-wave}{2012}]{neon-wave}
+{NEON spectrum}, {\url http://www.astro.sunysb.edu/metchev/},
+as 04/2012
+
+\bibitem[\protect\citeauthoryear{{atmosphere}}{{atmosphere}
+atmosphere}{2012}]{atmosphere}
+{Parameters for spectrum
+simulation},  {\url http://hitran.iao.ru}, as in 04/2012
+
+\bibitem[\protect\citeauthoryear{{USGS}}{{USGS}
+USGS}{2012}]{USGS}  {\it Resource for spectra of vegetation and ocean water},
+{\url http://speclab.cr.usgs.gov/spectral.lib06/ds231/datatable.html}, as in
+04/2012
+
+
+
+\end{thebibliography}

@@ -1,0 +1,48 @@
+\documentclass[manuscript]{aastex}
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand{\ie}{{\it i.e., }}
+\newcommand{\eg}{{\it e.g., }}
+\newcommand{\myemail}{steinkirch@gmail.com}
+
+
+
+\begin{document}
+
+
+\title{On the Spectroscopy Study of the Earthshine Spectra}
+\author{{\bf Marina von Steinkirch} \\ (laboratory partners: A. Massari and M. von Hippel)}
+\affil{State University of New York at Stony Brook \\ Department of  Physics and Astronomy  }
+\received{: \today}
+\accepted{: \today}
+
+
+
+\begin{abstract}
+We obtain a low-resolution optical spectrum of the faint glow from the dark side
+of the Moon, \ie the Earthshine.  We extract  the 
+Earth's spectrum from it and observe absorption features of ozone, molecular oxygen, and
+water. The  spectra is fitted to five
+well-known models for the atmosphere and the ground of a planet with life
+content, which allows us to  determine contributions of
+reflectance, scattering, and transmission.  At short wavelengths, the largest
+contributions come from Rayleigh scattering. At long wavelengths,
+enhancements  with values of $3\pm 2\%$ starting at 740 nm were found,
+corresponding to the red
+reflectivity edge of vegetation. 
+
+\end{abstract}
+\keywords{Earthshine $\cdot$ Earth's Spectrum $\cdot$ biosignature}
+
+
+
+
+
+
+\include{intro}
+\include{obser}
+\include{datared}
+\include{dataana}
+%\include{discuss}
+\include{conclu}
+\include{appen}
+\end{document}

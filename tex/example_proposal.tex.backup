@@ -1,0 +1,244 @@
+\documentclass[preprint,12pt]{aastex}
+\bibliographystyle{apj}
+\usepackage{epsfig, natbib, fancyhdr}
+\usepackage{times}
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+\usepackage{pdfpages}
+
+\textwidth=6.5in
+\textheight=9.2in
+\topmargin=-0.7in
+\oddsidemargin=0.0in
+\evensidemargin=0.0in
+\parskip=0pt
+\parindent 24pt
+
+\renewcommand\floatpagefraction{.99}
+\renewcommand\topfraction{.99}
+\renewcommand\bottomfraction{.99}
+\renewcommand\textfraction{.01}
+\setcounter{totalnumber}{150}
+\setcounter{topnumber}{150}
+\setcounter{bottomnumber}{150}
+
+\newcommand\Mj{\mbox{$M_{\rm Jup}$}}
+\newcommand\Msun{\mbox{$M_\sun$}}
+\newcommand\Lsun{\mbox{$L_\sun$}}
+\newcommand\Teff{\mbox{$T_{\rm eff}$}}
+\newcommand{\ie}{{\it i.e., }}
+\newcommand{\eg}{{\it e.g., }}
+
+\pagestyle{fancy}
+
+\begin{document}
+
+\lhead{\it Earthshine Observation of Biologic Products and
+Implications for Life Detection on Other Planets}
+%\chead{}
+\rhead{\it von Steinkirch et al.}
+\cfoot{\thepage}
+%\rfoot{}
+%\lfoot{}
+%\renewcommand{\headrulewidth}{0.0pt}
+%\renewcommand{\footrulewidth}{0.0pt}
+%\pagestyle{empty}
+
+\singlespace
+
+\section{Scientific Justification}
+
+\bigskip
+
+\subsubsection*{The Possibility of Life Detection on Other Planets}
+The detection of {\it exolife} has been one of the most important goals for
+future space missions. Current space missions used to identify exoplanets
+include \texttt{COROT}, \texttt{Spitzer} and \texttt{the Hubble Space
+Telescope}, as well as the secondary extended mission of \texttt{Deep Impact
+(EPOCh)} which will observe the light reflected from exoplanets
+(\cite{arnold_etal07}). \texttt{ESA’s Darwin} mission (estimated launch 2015)
+will aim to find and study the properties and composition of Earth-like
+exoplanets in the infrared. Over 300 giant exoplanets already have been
+detected, and hundreds, perhaps thousands more, are anticipated in the coming
+years. The nature of these planets, including their orbits, masses, sizes,
+constituents, and likelihood that life could develop on them, can be probed by a
+combination of observations and modeling.
+
+Our observations will tie in with current and future missions to observe and
+search for life on exoplanets. By looking at the spectra of Earth, we can
+characterize what makes it suitable for sustaining life, information that can be
+related to present and future exoplanet observations. This search is
+characterized by the detection of possible {\it biomarkers} on Earth-like
+exoplanets. On a first approach, they are simple molecules present in the
+planet's atmosphere, such as $O_2, O_3, CO_2,$ and $H_2O$ (see Fig.\ref{2}-a).
+Further studies aims for the detectibility of a proper signature of life from
+the planet's surface, considering, for instance, green vegetation as a biormaker
+\citep{seager_etal05}.
+
+
+Spectrum of solar flux that reaches the ground after absorption through Earth's
+atmosphere. Vegetation reflects or transmits almost all incident radiation at
+wavelengths where sunlight has about 40$\%$ of its energy. The {\it vegetation
+reflectance} (vegetation spectral signature) has a specific
+spectrum, with a sharp edge of $\lambda =  700$ nm in the visible
+electromagnetic spectra due to the missing photons used in photosynthetic
+process. This
+is detected as a {\it positive shift} above the continuous spectra, starting at
+this wavelength and is also know as the {\it Vegetation Red Edge} (VRE) (see
+Fig. \ref{1}-b).
+
+\bigskip
+
+
+\subsubsection*{The Earthshine as a Tool to the Study of other Earth-like
+Systems}
+
+The observation of the spectrum of {\it Moon Earthshine}, \ie the reflection of
+the Earth's light on the non-sunlit Moon, allows one to observe the
+Earth as any distant planet, and to perform studies on the detectibility of
+biomarkers ({\it e.g.} VRE) in its spectrum. Extracting the Earth albedo from
+the Earthshine spectrum requires the measurement of moonlight spectra (lit side
+of the moon) and the Earthshine spectra (unlit portion of the moon) in the
+visible wavelength \citep{woolf_etal02} (see Fig. \ref{2}).
+
+The spectrum of the light reflected by the planet, when normalized to the Sun
+(parent star spectrum) gives the planet reflectance spectrum revealing its
+atmospheric and ground color (if this is visible by a transparent atmosphere).
+
+ 
+\bigskip
+
+\section{Technical Justification}
+
+
+We aim the study of the Earthshine to develop a  systematic
+study on the detectibility of the vegetable edge and other possible biomarkers
+on
+extrasolar planets.
+
+To measure these parameters we will require (i) a spectrometer (visible
+waveband) to acquire spectral information (\cite{DADOS}),
+(ii) optics to focus reflected light from the moon to the spectrometer (Mt.
+Stony Brook 14-inch telescope). A spectrometer will split the incoming light
+of Earthshine by wavelength, having previously been focused by the optical
+section of the instrument. The intensity of light at each wavelength will be
+measured and recorded by the detector. It can then be plotted on to a graph of
+wavelength against light intensity, which can be analyzed to find a number of
+features. In order to pick up the key features of oxygen, water and vegetation
+red edge, we will need to investigate the visible and near infrared sections of
+the electromagnetic spectrum, with light of wavelengths between around 500 to
+1000 nm.
+
+
+Earthshine is brightest when most of the Earth as seen from the Moon is
+illuminated, {\it i.e.}, when the Moon is only a thin crescent. However, if the
+Moon is too close to the Sun, we might encounter difficulties with separating
+the glow of Earthshine from the bright twilight sky (\cite{woolf_etal02}).
+We select the first three nights of waxing crescent moon on April 2012. The
+angular separation from the Sun to the moon in all of the days from moonrise to
+sunrise is suitable for the experience , since the moon is sufficiently high
+above the horizon ($>20^{\circ}$, yet sufficiently close to the Sun
+($<90^{\circ}$) so that the Earthshine signal is bright.  The observations
+cease on sunrise, since when the Sun reaches about 6$^{\circ}$ below the horizon
+the sky will likely be too bright  to measure Earthshine. 
+
+
+
+The Earthsine data reduction is difficult, past works \cite{seager_etal05} have
+showed
+that the vegetation signal is only a few percents (less than $5\%$) above the
+continuum. For instance, one reason is because vegetable ares are covered by
+clouds. The Earthsine has usually low S/N ration because the observations are
+obtained with Moon low above the horizon, and consequently a high airmass and
+low Earthsine fluxes with respect to the sky. Moreover, the detector can be
+quickly saturared when recording the spectrum of the sunlit Moon crescent. 
+Therefore it requires a high S/N ratio to be detected. For the low-resolution
+(200 lines/mm) spectrograph grating with the narrowest (25 $\mu m$) slit, the
+DADOS spectrograph manual estimates that spectra with SNR $\sim$ 20 per pixel
+can be obtained by the following exposure times:
+\begin{itemize}
+ \item the bright limb of the Moon (5 s exposures, 10-15 median combined),
+\item the sky near the dark side of the Moon (30 sec exposure),
+\item thee dark side of the Moon (30 sec exposure).
+\end{itemize}
+
+
+
+To summarize, we need  around 1.5 hrs for dark exposure and around 15 min for
+calibrations, suitable for the days April 15th, 16th, and 17th of 2012.
+
+
+
+\begin{figure}
+\begin{center}
+ \includegraphics[width=0.45\textwidth]{1.jpg}
+ \includegraphics[width=0.45\textwidth]{2.jpg}
+\caption{\footnotesize (i) Mars Express record of Earth
+spectrum on the visible, (ii) The vegetation spectral signature. \label{1}}
+\end{center}
+\end{figure}
+
+
+\begin{figure}
+\centering
+ \includegraphics[scale=0.4]{4.png}
+ \includegraphics[scale=0.4]{3.png}
+\caption{\footnotesize (i) Moon's Earthshine and the schematic illustration of
+the dark and bright side of the moon, (ii) Schematic illustration of the
+sunlight reflected from the the Earth. \label{2}}
+\end{figure}
+
+
+
+
+
+
+
+\clearpage
+
+\onecolumn
+\center{\bf Object List} \\[2em]
+
+\centering 
+\begin{tabular}{lc lc l} 
+\hline\hline 
+
+   {\bf Moon}      & Illumination & Separation from Sun  & Moonrise &
+$t_{\rm int}$ \\
+ &  (percentage) & ($\Delta$Az/$\Delta$Alt $\pm 5^{\circ}$) & (Eastern Time)  &
+(Dark/Light) (s)\\ [0.5ex] 
+\hline 
+  15 April 2012 &{\bf 28}$\%$  &Moonrise: $81^{\circ}/ 46^{\circ} $  &
+3:12 am &	30/5\cr
+&	&	Sunrise: $80^{\circ}/ 34^{\circ} $	&
+&	\cr
+16 April 2012 &  {\bf 19}$\%$  & Moonrise: $67^{\circ}/ 38^{\circ} $  & 3:41 am
+&	30/5 \cr
+ &	&	Sunrise: $66^{\circ}/ 32^{\circ} $	&
+&	\cr
+  17 April 2012 & {\bf  28}$\%$  &Moonrise: $55^{\circ}/ 31^{\circ} $  & 4:08 am
+&30/5	\cr
+&	&	Sunrise: $54^{\circ}/ 28^{\circ} $	&
+&	\cr
+\\  [1ex]
+\hline 
+\hline
+         & Coordinates & & $V$  & $t_{\rm int}$   \\
+	& (J2000.0)    & & (mag) & (sec) \\ [0.5ex] 
+\hline 
+{\bf Betelgeuse}& 5$^h$ 55$^m$ 10.3$^s$,
+&  $+7^{\circ}$ 24$'$ 25.0$''$&-.5&  30+5 \cr
+\\  [1ex]
+\hline\hline 
+\end{tabular}
+
+
+
+
+
+\footnotesize
+
+
+
+\end{document}
+

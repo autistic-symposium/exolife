@@ -1,0 +1,36 @@
+\documentclass[manuscript]{aastex}
+
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand{\ie}{{\it i.e., }}
+\newcommand{\eg}{{\it e.g., }}
+\newcommand{\myemail}{steinkirch@gmail.com}
+
+
+
+\begin{document}
+
+
+\title{On the Calculation of the Angular Diameter \\of the Sun by Milchelson Radio Interferometry}
+\author{{\bf Marina von Steinkirch} \\ (laboratory partners: A. Massari and M. von Hippel)}
+\affil{State University of New York at Stony Brook \\ Department of  Physics and Astronomy  }
+
+
+
+\begin{abstract}
+We report the measurement of the angular diameter of the Sun with two complementary analysis. The observations were perfomed with  the Stony Brook radio interfometer, a compact interferometer that exploits  suitable wavelengths to resolve the magnitudes of the experiment. We measured the total power of the Sun and of a point source for different distances between the mirrors. We compare the results of the interfermeter to the simple beam pattern scan. The fringe pattern by the interferometry data was normalized and Fourier-analyzed. The peak frequencies were identified and the diameter of the Sun was inferred from two methods: (i)  by Taylor-expanding the visibility function, and (ii) by fitting the Fourier-transformed {\it sinc} visibility function. We verified a value of $\Phi^{Tay}_{sun} = 37.43' \pm 5.33' $ and $\Phi^{Fit}_{sun}= 32.77' \pm 5.28'$, respectively. Both values are compatibles to the actual  value in the literature,  $\Phi^{Actual}_{sun}= 31.1' \pm 0.6'$.
+
+\end{abstract}
+\keywords{Radio Interferometry: general --- Radio Interferometry: Michelson, Sun}
+
+
+
+
+
+\include{intro}
+\include{obser}
+\include{datared}
+\include{dataana}
+\include{discuss}
+\include{conclu}
+\include{appen}
+\end{document}

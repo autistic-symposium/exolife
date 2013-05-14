@@ -1,0 +1,146 @@
+\section{Observations}
+
+This experiment aims to obtain an optical spectrum of Earthshine and test for
+the presence of biomarker features,\eg O$_2$, O$_3$, H$_2$O, and the presence of
+the vegetation red edge through fits of several models' components to the
+observed spectrum. The observations were performed on the {\bf Mt. Stony Brook
+14-inch telescope}, with the {\bf DADOS optical spectrograph} \cite{dados}, and
+the {\bf SBIG STL-402 CCD camera} \cite{CCD}, on the date of April 17th, from
+1:30 am to 5:30 am. The sky was clean and the temperature was around
+55$^{\circ}$ F. The overall cloud cover from the archival satellite imagery and
+the Earth seen from the moon, can be seen in the figures \ref{sat} and
+\ref{frommoon},  in the appendix.
+
+
+
+
+\subsection{Setting up the Spectrometer}
+A spectrometer  splits the incoming light
+of Earthshine by wavelength, having previously been focused by the optical
+section of the instrument. The intensity of light at each wavelength is
+measured and recorded by the detector, and it is then  plotted  against light
+intensity, which is analyzed to find a number of
+features. In order to pick up the key features of oxygen, water and vegetation
+red edge, we investigate the visible and near infrared sections of
+the electromagnetic spectrum, with light of wavelengths between  500 to
+800 nm.
+
+
+
+
+
+
+Earthshine is brightest when most of the Earth as seen from the Moon is
+illuminated, {\it i.e.}, when the Moon is only a thin crescent. However, if the
+Moon is too close to the Sun, there are  difficulties  separating
+the glow of Earthshine from the bright twilight sky \cite{woolf_etal02}.
+We select  a  night of waxing crescent moon when  the angular separation from
+the Sun to the moon (from the moonrise to the sunrise) is suitable for the
+experiment. This means that   the moon is sufficiently high above the
+horizon ($>20^{\circ}$), yet sufficiently close to the Sun
+($<90^{\circ}$) so that the Earthshine signal is bright.  The observations
+cease at sunrise, since when the Sun reaches about 5$^{\circ}$ below the
+horizon, the sky will  be too bright  to measure Earthshine. 
+
+
+
+We set the optical wavelength range of the spectrograph to cover our chosen set
+of Earthshine absorption by molecular O$_2$, O$_3$, H$_2$O. This was done before
+mounting the spectrograph on the telescope with the help of the Neon light
+source. We looked up the  wavelengths of the strongest Neon gas transitions
+in the optical, adjusting the wavelength range of the spectrograph. We use the
+DADOS spectrograph with long integration times. To maximize the spectral
+resolution the narrowest width slit $ 25 \mu m$ is to be used. This gives a
+spectral resolution of $\lambda / \Delta \lambda \sim 500$.
+
+
+Setting  the telescope tracking rate to lunar ({\texttt Autostar II}
+keypad), we obtain sequences of spectra of the {\bf bright} (moonshine) and {\bf dark} (earthshine) sides
+of the facing Moon, each of them together with  the adjacent {\bf sky} (in the
+adjacent slit). We also take
+calibration exposures of the Neon light source and  darks with duration matched
+to the duration of all of the science exposures.
+
+\subsection{Estimative of Exposure Times}
+
+The Earthshine  usually has low S/N (signal to background) ratio because the
+observations are obtained with Moon low above the horizon, and consequently a
+high airmass and low Earthshine fluxes with respect to the sky. Moreover, the
+detector can be quickly saturated when recording the spectrum of the sunlit Moon
+crescent. When it comes to the vegetation signal, the Earthshine data reduction
+becomes even more difficult: past works \cite{seager_etal05} have
+shown that it  is only a few percent (less than $5\%$) above
+the continuum. Two reasons for this are pointed in the literature: (i) the variable amplitude, induced by a variable cloud cover and the Earth phase, (ii) the strong astmospheric bands which need to be removed to access the surface reflectance. 
+
+Assuming that the signal is limited to photons, the signal to background ratio
+for each of the sciences can be written as
+\begin{equation}
+ S/N = \sqrt{N_{\gamma}t},
+\end{equation}
+where $t$ is the time of integration ans $N_{\gamma}$ the number of photon
+counts.
+
+First, we make an estimate of the exposure time for the dark and
+the bright side of the waxing crescent moon, supposing that their S/N are
+similar. Considering that the {\it full moon} has magnitude
+$m_{full} = -12.7$ and the {\it new moon} has magnitude $m_{new}= -2.5$, the
+ratio of {\it photon fluxes} for the dark and bright side of the moon \cite{CCD}
+is
+\begin{eqnarray}
+ R_{d/b} &\sim&\frac{F_{dark}}{F_{bright}}, \nonumber \\ 
+&\sim& 0.1 \times 10^{(m_{full} - m_{new}) / 2.5}, \nonumber \\
+&\sim& 10^{3}. \nonumber 
+\end{eqnarray}
+
+We can then derive the exposures times for each side,
+\begin{eqnarray}
+ t_{bright} \times N_{\gamma \, bright} &\sim& t_{dark} \times N_{\gamma \,
+dark} \times R^{-1}_{d/b}.
+\nonumber
+\end{eqnarray}
+
+The last result means that if we keep the number of counts constant for the dark
+and bright sides, we should aim for calibration dark exposure times of
+around 1000 
+larger than those for bright, \eg we should have at least 90 minutes of net
+observation of the dark side for a 5 seconds exposure of the bright side.
+However, due the observational constrains, we ended up collecting only 1/4 of
+this value, as it is shown in the Table \ref{looo} of the
+appendix.
+
+
+
+
+\subsection{Steps of Data Acquisition}
+
+The data acquisition was  performed by the following steps, based on the
+exposure times in the Table \ref{looo} in the appendix:
+\begin{enumerate}
+\item We record the spectrum of the Neon lamp on all the slits.
+
+ \item We record a non-saturated spectrum of a {\it  bright stellar point
+source} (Altair) at {\it two distinct positions on the slit}. We trace their
+spectrum, which gives the direction along which we extract the spectrum of  the
+Earthshine.
+
+\item We track the {\it dark side of the Moon},  positioning the {\it dark limb}
+in one slit and the adjacent on the other and recording the spectra.
+
+\item We measure  the {\it illuminated limb of the moon } in the same way,
+with a much smaller time to avoid saturation.
+
+\item We repeat the above three procedures while the Sun is still not close
+enough to the Moon.
+\item   We obtain sets of dark frames for all the  exposure times of
+our sciences.
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+

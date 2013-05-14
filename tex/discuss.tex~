@@ -1,0 +1,5 @@
+\section{Discussion} % contextual interpretation of your results and a comparison with established results and practices; a discussion of why you may not be seeing the expected result, and so possible changes or improvement to your data taking
+ 
+There were many source of errors in this experiment due to incorrect calibration and positioning of the sources. The most relevant source of uncertainties, was the  incorrect alignment of the  two side mirrors. Due to this fact we see that our profiles are not clean, most of the times not having a clean central peak. 
+
+Despite the high uncertainties, the calculations surprisingly resulted on a good agreement to the expect value for the diameter of sun in the literature. The second method, based on the fit of the Fourier components, resulted on a more precise value, as it was expect. It is not clear how better theses results can be when treating very accurate and calibrated data instead.
